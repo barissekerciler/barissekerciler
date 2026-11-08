@@ -18,4 +18,4 @@ No `kubectl apply` by hand, no secrets in the repo, nothing port-forwarded.
 
 #### 📫 Elsewhere
 
-[blog.bariss.dev](https://blog.bariss.dev) · [X](https://x.com/barisroot) · [LinkedIn](https://www.linkedin.com/in/barissekerciler)
+[blog.bariss.dev](https://blog.bariss.dev) · [LinkedIn](https://www.linkedin.com/in/barissekerciler)
