@@ -1,16 +1,21 @@
-### Hi there 👋
+### Hi, I'm Baris
 
-<!--
-**barissekerciler/barissekerciler** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+DevOps Engineer in Berlin. Off hours I run a small Kubernetes homelab and keep
+every bit of it in Git.
 
-Here are some ideas to get you started:
+#### 🏠 [homelab-infra](https://github.com/barissekerciler/homelab-infra)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My homelab as code: a two-node Talos Linux cluster that Flux reconciles from Git.
+No `kubectl apply` by hand, no secrets in the repo, nothing port-forwarded.
+
+- **GitOps:** Flux with image automation; private apps run as a separate Flux tenant
+- **Secrets:** OpenBao and the External Secrets Operator
+- **Storage:** TrueNAS over iSCSI and NFS (democratic-csi), with volumes pinned in Git
+  so a rebuilt cluster finds its old disks
+- **Databases:** CloudNativePG, backed up to in-cluster S3 (SeaweedFS)
+- **Edge:** Traefik, cert-manager, a Cloudflare tunnel and Tailscale
+- **Observability:** kube-prometheus-stack and Grafana, dashboards generated from Python
+
+#### 📫 Elsewhere
+
+[blog.bariss.dev](https://blog.bariss.dev) · [X](https://x.com/barisroot) · [LinkedIn](https://www.linkedin.com/in/barissekerciler)
